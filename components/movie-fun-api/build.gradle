@@ -5,7 +5,7 @@ dependencies {
 
     compile "org.springframework:spring-web:$springVersion"
     compile "org.springframework:spring-context:$springVersion"
-    compile "org.springframework:spring-jdbc:$springVersion"
 
-    testCompile "junit:junit:$junitVersion"
+    compile "javax.servlet:javax.servlet-api:3.1.0"
+    compile "org.slf4j:slf4j-api:$slf4jVersion"
 }
